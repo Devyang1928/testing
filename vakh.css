@@ -1,0 +1,575 @@
+/* New Html Start  */
+
+section h2{
+    color: #000000;
+}
+section p{
+    font-family: "Poppins", sans-serif;
+  }
+
+.mainbanner .banner1{
+  width: auto;
+}
+@media (max-width:576px) {
+  .mainbanner .banner1{
+    width: auto;
+    height: 450px;
+    object-fit: cover;
+
+  }
+}
+@media(max-width:576px){
+  .mainbanner{
+    /* background-image:url(/images/banner.png); */
+    /* background-image: linear-gradient(rgb(8, 126, 225),rgb(5, 232, 186)),url(/images/banner.png); */
+  
+    height:50vh;
+    /* object-fit: cover; */
+  }
+}
+.navbar {
+  /* background-color: #2E96E4; */
+  /* background: linear-gradient(to right, #2E96E4 0%, #74ebd5 100%); */
+  background: linear-gradient(98.68deg, #087EE1 0%, #05E8BA 110%);
+  
+}
+.navbar .navbar-nav{
+  color: white !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+
+section form{
+  width: 40%;
+  color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    /* text-align: center; */
+    border-radius: 5px;
+    background: linear-gradient(78.68deg, #087EE1 0%, #05E8BA 110%);
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+@media(max-width:576px){
+  section form{
+    width: auto;
+    color: #fff;
+    position: absolute;
+    /* margin-bottom: -550px; */
+    /* top: 0%; */
+    margin-left: 10%;
+    transform: translate(-50%,-100%);
+    /* text-align: center; */
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  .mainbanner form #formBT{
+    /* font-size: 50px; */
+    margin-left: 20px;
+  }
+}
+
+section h2{
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+@media(max-width:576px){
+  section h2{
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+}
+section .enrl{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 45%;
+    /* text-align: center; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+}
+
+
+/* ABout us  */
+.about{
+  background-color: #000000;
+}
+section .abtImg{
+    /* border-radius: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: animate__bounce;
+    animation-duration: 2s;
+}
+.about p{
+  font-size: 15px;
+  padding-left: 50px;
+}
+@media(max-width:576px){
+  .about p{
+    font-size: 15px;
+    padding: 4px;
+  }
+  .about h2{
+    padding-top: 20px;
+  }
+  section .abtImg{
+    /* border-radius: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: animate__bounce;
+    animation-duration: 2s;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+}
+/* About Us  */
+
+/*--------------------------------------------------------------
+# Level Us
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+/* why choose end  */
+
+/* <!-- What are the level setion  --> */
+.team .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+  }
+  
+  .team .member .pic {
+    /* overflow: hidden; */
+    width: 150px;
+    /* border-radius: 50%; */
+  }
+  
+  .team .member .pic img {
+    transition: ease-in-out 0.3s;
+    width: 100px;
+    height: auto;
+  }
+  .team .member .pic .levelB1{
+    width: 60px;
+    /* padding-right: 10px; */
+    padding-bottom: 35px;
+  }
+  .team .member:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* .team .member .member-info {
+    padding-left: 20px;
+  }
+   */
+  .team .member h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #F4465D;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  
+  
+  .team .member p {
+    margin: 10px 0px 0 20px;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  
+  @media(max-width:576px){
+    .team .Enrlbtn button{
+      font-size: 100px;
+      margin-left: 80px;
+    }
+  }
+  
+  /* <!-- What are the level setion  --> */
+
+/* List Section  Start  */
+
+section .box{
+  /* border: 2px #00A9BA solid; */
+  border-radius: 5px;
+  margin-left: 25px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section .box:hover{
+  background-color: #05E8BA;
+  animation-duration: 2s;
+  animation-name: example;
+  animation-iteration-count: infinite;
+}
+@keyframes example{
+  from {background-color: transparent;}
+to {border-color: #47b2e4;background-color: #05E8BA;}
+}
+section .box h3{
+  color: #000000;
+}
+section .box p{
+  font-size: 15px;
+  padding-top: 15px;
+}
+section .box img{
+  width: 70px;
+  animation-duration: 3s;
+  animation-name: bounceIn;
+  animation-iteration-count: infinite;
+
+}
+@media(max-width:576px){
+  .list h2{
+    font-size: 22px;
+  }
+  section .box{
+    /* border: 2px #00A9BA solid; */
+    border-radius: 5px;
+  
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+}
+
+/* List Section End  */
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.services .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.services .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.services .icon-box:hover h4 a {
+  color: #47b2e4;
+}
+/*--------------------------------------------------------------
+# Services End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Upcoming Start 
+--------------------------------------------------------------*/
+
+section h3{
+  font-family: "Poppins", sans-serif;
+  color: #2d5932;
+  font-weight: 600;
+}
+section #quiz{
+  background-color: #E5FAF8;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  animation-duration: 5s;
+  animation-name: example1;
+  animation-iteration-count: infinite;
+
+}
+@keyframes example1{
+  from {background-color: #626c6b;}
+to {border-color: #F4465D;background-color: #E5FAF9;}
+}
+section #quiz h3{
+  padding-top: 50px;
+}
+
+@media(max-width:576px){
+  section #table{
+    margin-bottom: 20px;
+  }
+  section #quiz{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 0px;
+  }
+}
+/*--------------------------------------------------------------
+# Upcoming End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Certificate Start
+--------------------------------------------------------------*/
+section .certificate{
+  width: auto;
+  height: 550px;
+  margin-left: 13%;
+  box-shadow: 0 px px 0 rgba(0, 10px, 2px, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+@media(max-width:576px){
+  section .certificate{
+    width: 250px;
+    height: 350px;
+    margin: auto;
+  }
+}
+/*--------------------------------------------------------------
+# Certificate End
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list {
+    padding: 0 100px;
+  }
+  
+  .faq .faq-list ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .faq .faq-list li+li {
+    margin-top: 15px;
+  }
+  
+  .faq .faq-list li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    /* border: 2px solid #cbd6e9; */
+    /* border-radius: 20px; */
+  }
+  
+  .faq .faq-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    /* border: 2px solid #cbd6e9; */
+    /* padding: 10px 5px; */
+    /* background-color: black; */
+    
+  }
+  
+  .faq .faq-list .icon-help {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #47b2e4;
+  }
+  
+  .faq .faq-list .fa-angle-up,
+  .faq .faq-list .fa-angle-down {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+  }
+  
+  .faq .faq-list p {
+    /* margin-bottom: 10px; */
+    padding: 10px 0 0 0;
+    /* background-color: #cbd6e9; */
+  }
+  
+  .faq .faq-list .fa-angle-down {
+    display: none;
+  }
+  
+  .faq .faq-list a.collapsed {
+    color: #37517e;
+    transition: 0.3s;
+  }
+  
+  .faq .faq-list a.collapsed:hover {
+    color: #47b2e4;
+  }
+  
+  .faq .faq-list a.collapsed .fa-angle-up {
+    display: none;
+  }
+  
+  .faq .faq-list a.collapsed .fa-angle-down {
+    display: inline-block;
+  }
+  
+  @media (max-width: 1200px) {
+    .faq .faq-list {
+      padding: 0;
+    }
+  }
+
+
+
+
+
+  /* Footer  */
+.footer .links{
+    /* display: inline-block; */
+    /* line-height: 5px; */
+    color: #343a40 !important;
+}
+
+.footer .links a i{
+    color: #343a40;
+}
+.footer h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: 600;
+}
+section .links i{
+  color: white;
+}
+section .links a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section #coursCol{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media(max-width:576px){
+  section .links {
+    margin-bottom: 50px;
+    margin-left: 10px;
+
+  }
+  section #conteAb{
+    margin-bottom: 30px;
+  }
+  section #col2 {
+    margin-left: 10px;
+    /* margin-right: 0px; */
+    /* margin-top: 20px; */
+  }
+  section #coursCol{
+    margin-left: 10px;
+  }
+}
+/* footer end  */
+
+
+/* Testi Daxesh  */
+          .owl-carousel .owl-item img {
+            display: inline-flex;
+            width: 17%;
+            float: left;
+            border: 5px solid #fff;
+            border-radius: 20px;
+            margin-left: 54px;
+            margin-right: 35px;
+            margin-top: 15px;
+          }
+        
+          .testimonial-item.equal-height.style-6 {
+            background-color: #eee;
+            border-radius: 10px;
+            margin: 10px;
+          }
+        
+          .cell-right {
+            text-align: center;
+            margin-right: 80px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+          }
+        
+          .testimonial-name {
+            font-weight: 600;
+          }
+        
+          .testimonial-content.quote {
+            padding: 17px 55px;
+          }
+        
+          .et_right_sidebar #main-content .container:before {
+            display: none;
+          }
+        
+          #main-content .container {
+            padding-top: 10px;
+          }
+        
+          i.fa.fa-quote-left {
+            padding: 0px 10px;
+            color: #999;
+          }
+          .owl-prev {
+            background-color: #087EE1 !important;
+            font-size: 13px !important;
+          }
+    
+          .owl-next {
+            background-color: #087EE1 !important;
+          }
+          .owl-page span{
+            background-color: #087EE1;
+          }
+          
+        
+

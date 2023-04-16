@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaakh Academy</title>
+  <link rel="stylesheet" href="vakh.css">
+  <link rel="stylesheet" href="index.js">
+  <!-- favicon  -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- == -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- ==ANimation CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Animated CSS  -->
+    
+  <!-- Font Awesome   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Testimonial  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo-new-02.png" width="200px" alt="" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav m-auto  ">
+          <a class="nav-link active text-white" aria-current="page" href="#">How it Works</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Learn SPANISH</a></li>
+              <li><a class="dropdown-item" href="#">Learn FRENCH</a></li>
+              <li><a class="dropdown-item" href="#">Learn GERMAN </a></li>
+            </ul>
+          </li>
+          <a class="nav-link text-white" href="#">About Us</a>
+          <a class="nav-link text-white">Careers</a>
+          <a class="nav-link text-white">Blog</a>
+          <a class="nav-link text-white">Contact Us</a>
+          <button class="btn mx-5"  style="background-color: #F4465D; color: #f3f5fa; padding: 5px 25px; border-radius: 25px;"> Login </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navigation Menu End   -->
+  <!-- Form Section Start  -->
+  <section class="mainbanner">
+    <div class="carousel">
+      <img src="Website Banner 2 (2).png" class="img-fluid banner1" width="auto" alt="" srcset="">
+    </div>
+    <form action="insert.php" method="post">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <!-- <label for="exampleInputEmail1" class="form-label" >Email address</label> -->
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email" />
+            <div id="emailHelp" class="form-text">
+              <!-- We'll never share your email with anyone else. -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <input type="text" required class="form-control" id="exampleInputNumber" placeholder="Mobile No.">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option selected>Select The Course</option>
+              <option value="1">Learn SPANISH</option>
+              <option value="2">Learn FRENCH</option>
+              <option value="3">Learn GERMAN</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="formBT" class="btn btn-primary  mt-2" id="submit" style=" color:#fff; background-color: #F4465D; padding: 10px 30px; font-size: 18px; border-radius: 25px; border: none; margin-left: 35%;     font-family: Georgia, 'Times New Roman', Times, serif;
+      ">Enroll Now</button>
+    </form>
+  </section>
+
+<!-- Banne Section End  -->
+
+  <!-- About Us Section Start  -->
+
+  <section class="about pb-5 pt-5" style="background-color: #E5FAF8;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="about.jpg" alt="" width="auto" class="img-fluid abtImg" srcset="">
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-center  pb-2">About 
+            <strong style="background: -webkit-linear-gradient( #087EE1, #05E8BA);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;">German</strong> Language</h2>
+          <p class="par">Germany is a world leader in automation, cars, and other technological advancements.
+            Linguistics is a way of accessing this universe. The Vaakh Academy's German language courses have
+            led to a deep
+            dive into the educational ocean, where one can discover the masterpieces of Germany's great thinkers
+            in art,
+            music, theology, and political Swritings. From a commercial perspective, Europe's growth as a
+            producer and the
+            world's largest economy has increased the importance of this glossary. Language is a means of
+            accessing this
+            universe. India is one of their growing markets, so the demand for German translators, German
+            interpreters, and
+            German trainers is as great as ever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section End  -->
+
+  <!-- What are the level setion  -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="row">
+      </div>
+
+    </div>
+    <section id="team" class="team" style="background: linear-gradient(128.68deg, #087EE1 0%, #05E8BA 110%); padding-top: 20px; padding-bottom: 50px;">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+        <h2 class="text-center mt-5 mb-4 text-white">What are the Levels of  German Course
+        </h2>
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Level A1</h4>
+                <p> Helps you familiarize yourself with expressions and phrases to convey phrases related to the
+                  satisfaction of your specific needs.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="2 (1).png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Level A2</h4>
+                <p> Can introduce themselves and ask the same questions as others, frequently using expressions related
+                  to subjects directly related to them.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="3.png" class="img-fluid levelB1" alt=""></div>
+              <div class="member-info">
+                <h4>Level B1 </h4>
+                <p>Can express one's opinion briefly on specific or known topics such as work, study, and leisure.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="4.png" class="img-fluid levelB1" alt=""></div>
+              <div class="member-info ">
+                <h4>Level B2</h4>
+                <p>Can you easily communicate with the locals? Understand the main content of complex texts, identify
+                  strengths, and highlight weaknesses.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="5.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Level C1 </h4>
+                <p>Can interpret a wide variety of difficult material and deduce hidden meanings. You can also
+                  communicate fluently without having to search for words frequently and extensively.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4">
+            <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="6.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Level C2</h4>
+                <p>You can write a lot and understand almost everything you read or hear. Summarize information from a
+                  variety of written and oral sources and use the language effectively in all areas.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-3">
+            <div class="Enrlbtn"><button class="btn btn-primary mt-5 " style="background-color: #F4465D; padding: 15px 50px; font-size: 20px;    font-family: Georgia, 'Times New Roman', Times, serif;
+              border-radius: 25px; border: none;">Enroll Now</button></div>
+          </div>
+          <div class="col-md-4"></div>
+
+        </div>
+      </div>
+    </section>
+
+    </div>
+  </section>
+
+
+  <!-- Level Section End  -->
+  <!-- List of German Course  -->
+  <section class="list  pt-5" style="background-color: #f3f5fa; padding-bottom: 70px;">
+    <div class="container">
+      <div class="row">
+        <h2 class="pb-5 pt-4 text-center">Why choose a German Course at Vaakh Academy?
+        </h2>
+        <div class="col box">
+          <img src="online-learning.png" class="img-fluid" alt=""  style="width: 60px;">
+          <!-- <h3>Heading</h3> -->
+          <p> One of the most comprehensive courses in India. </p>
+        </div>
+        <div class="col  box">
+          <img src="level-up.png" class="img-fluid" alt=""style="width: 60px;">
+          <!-- <h3>Heading</h3> -->
+          <p> Suitable for all levels from A1 to C3 Everything from basic to advanced, culture to native speaking.
+          </p>
+        </div>
+        <div class="col  box">
+          <img src="clock.png" class="img-fluid" alt=""style="width: 60px;">
+          <!-- <h3>Heading</h3> -->
+          <p> Our one batch takes 80 hours to complete compared to the minimum of 120 hours taken by other academies.
+          </p>
+        </div>
+        <div class="col box">
+          <img src="hand.png" class="img-fluid" alt=""style="width: 60px;">
+          <!-- <h3>Heading</h3> -->
+          <p> Our native tutors will share the whole cultural experience with you to gain confidence and exposure to the
+            culture and language. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- List of German cousre End  -->
+
+<!-- Why Choose Section Start  -->
+
+  <section id="services" class="services section-bg pb-5 " style="background: linear-gradient(128.68deg, #087EE1 0%, #05E8BA 110%); padding-top: 20px; padding-bottom: 50px;">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title text-center pt-5 pb-3">
+        <h2 class="text-white">Why should I learn German?</h2>
+        <p class="text-white">Each foreign language has its own advantages. A German certification course in Pune expands your employment
+          opportunities at an international level. This helps global employers expedite production. German lessons in
+          India prepare you for most situations that may arise while traveling abroad. You can also create simple
+          related texts on familiar or private topics. Learn German for all levels - beginner, intermediate and
+          professional - with our German courses in India designed to meet the requirements of German exams such as DSH,
+          TestDaF, and Goethe-Institute.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in"
+          data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><img src="world-globe.png" class="img-fluid" width="50" alt=""></div>
+            <h4>Discover the global education platform</h4>
+            <p>Germany has a very high level of education. German faculties are recognizable. Over 50% of national
+              students are enrolled in German universities, making Germany the most popular study destination for
+              international students.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate" data-aos="zoom-in"
+          data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="security.png" class="img-fluid" width="50" alt=""></div>
+            <h4>Secure your dream job</h4>
+            <p>To get your dream job, you must complete a certified-level German language course in Pune or any other
+              foreign language. A country like Germany with a stable economy and technology automatically meets the
+              requirements of your dream job and is sure to create many employment opportunities that will help you
+              build a great career.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate" data-aos="zoom-in"
+          data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><img src="language.png" class="img-fluid" width="50" alt=""></i></div>
+            <h4> Break Down Language Barriers </h4>
+            <p>Even if you are not learning for commercial goals, you will be able to overcome language hurdles when doing day-to-day chores in a foreign country. In Germany, people are very proud of their language and prefer to converse mostly in the same language. To understand the culture and local etiquette you must have a breakdown of the language barrier. This will make your stay comfortable in the competitive world.​​
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate" data-aos="zoom-in"
+          data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><img src="requirements.png" class="img-fluid" width="50" alt=""></div>
+            <h4>Improve Your Skills</h4>
+            <p>Additional Benefits in Job Hunting and Resume Writing. A Basic Step to Better Career Prospects is Resume Writing. In your resume when you mentioned German language expertise will clearly indicate the potential to expand your knowledge globally. Knowing the German language will also open the door to international business opportunities.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Why Chooe Section End  -->
+  
+
+  <!-- Certificate Start  -->
+  <section class="certificate  pb-5" style="background-color: #f3f5fa;">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center mt-5 mb-3">German Certificate</h2>
+        <img src="Modern Event Completion Certificate (1).png" class="img-fluid certificate" alt="" srcset="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate End  -->
+<!-- UPCOMING BATCH START  -->
+<section class="upcoming pb-5" style="background: linear-gradient(128.68deg, #087EE1 0%, #05E8BA 110%); padding-top: 20px; padding-bottom: 50px;">
+<div class="container">
+  <h2 class="text-center mt-3 mb-2 text-white">The Vaakh Way!</h2>
+  <h3 class="text-center mb-3" style="color: black;">German Batch Schedule</h3>
+  <div class="row">
+    <div class="col-md-7" id="table">
+      <table class="GridTable4Accent6 table table-bordered mb-0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr style="background-color: #087EE1;">
+            <td valign="top" width="100"><span style="color: #ffffff;"><strong><span lang="EN-US">BatchNo.</span></strong></span></td>
+            <td valign="top" width="179"><span style="color: #ffffff;"><b><span lang="EN-US">Time </span></b></span></td>
+            <td valign="top" width="150"><span style="color: #ffffff;"><b><span lang="EN-US">Start Date</span></b></span></td>
+            <td valign="top" width="200"><span style="color: #ffffff;"><b><span lang="EN-US">Weekly Session</span></b></span></td>
+          </tr>
+          <tr style="background-color: #f3f5fa;">
+            <td valign="bottom" width="100"><span lang="EN-US">Batch 1 </span></td>
+            <td valign="bottom" width="179"><span lang="EN-US">7.00pm to 8.30pm</span></td>
+            <td valign="bottom" width="150"><span lang="EN-US">20/01/2023</span></td>
+            <td valign="bottom" width="200"><span lang="EN-US">Mon.-Wed.-Fri.</span></td>
+          </tr>
+          <tr style="background-color: #f3f5fa;">
+            <td valign="bottom" width="100"><span lang="EN-US">Batch 2</span></td>
+            <td valign="bottom" width="179"><span lang="EN-US">3.00pm to 5.00pm</span></td>
+            <td valign="bottom" width="150"><span lang="EN-US">Coming Soon</span></td>
+            <td valign="bottom" width="200"><span lang="EN-US">Sat.-Sun.</span></td>
+          </tr>
+          <tr style="background-color: #f3f5fa;">
+            <td valign="bottom" width="100"><span lang="EN-US">Batch 3</span></td>
+            <td valign="bottom" width="179"><span lang="EN-US">6.30pm to 8.30pm</span></td>
+            <td valign="bottom" width="150"><span lang="EN-US">Coming Soon</span></td>
+            <td valign="bottom" width="200"><span lang="EN-US">Tue.-Thu.</span></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4" id="quiz" >
+      <h3 class="text-center mb-3" style="color: black;">German Batch Schedule</h3>
+      <button class="btn2 " style="margin-left: 30%; background-color: #F4465D; color: #f3f5fa; padding: 5px 25px; font-size: 20px; border: none; border-radius: 25px;font-family: Georgia, 'Times New Roman', Times, serif; "> Enroll Now </button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- UPCOMING BATCH END  -->
+
+  <!-- ======================== -->
+  <div class="container pb-5">
+    <div class="row">
+      <h2 class="text-center pb-2 pt-5" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 35px; font-weight: 600;">Student Testimonial </h2>
+      <div class="col-md-12">
+        <div id="testimonial-slider" class="owl-carousel">
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div> 
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+          <div class="testimonial-item equal-height style-6" style="height: 254px;background-color: #E5FAF8;">
+            <div class="testimonial-image cell-left">
+              <img
+                src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Rose">
+            </div>
+            <div class="cell-right">
+              <div class="testimonial-name">Rose </div>
+              <div class="testimonial-job">Gardener </div>
+            </div>
+            <div class="testimonial-content quote">
+              <i class="fa fa-quote-left"></i>This is a short bio about rose. This is a short bio about rose. This is a
+              short bio about rose. This is a short bio about rose. This is a short bio about rose.
+            </div>
+          </div>
+          <!--  ////////////////////////////////////////////////////////  -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== -->
+  <!-- FAQ Start  -->
+  <section id="faq" class="faq section-bg " style="background-color: #f3f5fa; padding-bottom: 50px;">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title text-center pt-5">
+        <h2 class="pb-5">Frequently Asked Questions</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      </div>
+
+      <div class="faq-list">
+        <ul>
+          <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question  icon-help"></i> <a data-bs-toggle="collapse"
+              class="collapse collapsed" data-bs-target="#faq-list-1" aria-expanded="false"> Is it worth learning
+              German? <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Yes! German is a language worth learning. Because you are the best native speaker of any language in the
+                world.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-2" class="collapsed" aria-expanded="false"> What level do you use in German?
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+
+            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+
+              <p>
+                There are 6 levels in German. <br>
+                <b> 1st A1 Level <br>
+                  2nd A2 Level<br>
+                  3rd B1 Level <br>
+                  4th B2 Level <br>
+                  5th C1 Level <br>
+                  6th C2 Level <br>
+                </b>
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-3" class="collapsed" aria-expanded="false"> How will German help you in your?
+            
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Learning German opens up your professional opportunities at an international level. German paved the way
+                for candidates in multinational companies. By learning German, you will be able to gain insight into the
+                lives, hopes, and dreams of German-speaking men and women, and broaden your horizons. </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-4" class="collapsed" aria-expanded="false"> What are the requirements to study in Germany?
+              career?
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The usual documents you need for enrollment studying in Germany are: <br>
+                <strong> 1. Passport with visa or residence permit. </strong><br>
+                <strong>2. Passport photos.</strong><br>
+                <strong>3. Completed registration form.</strong><br>
+                <strong>4. Proof of higher education entrance qualification, either original certificates or officially certified copies and translations.
+                  There might be many more requirements regarding your documents, contact the consultants of Yes Germany for complete update.</strong>   
+              </p>
+            </div>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-5" class="collapsed" aria-expanded="false">  Is Germany good for Indian students?
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Germany being a very friendly nation to Indian students, students tend to get easily involved with natives as compared to other countries. The study and the culture of Germany is very much friendly to Indian students. Both the public universities in Germany and private universities in Germany both have turned out to be Indians friendly so far.
+</p>
+            </div>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-6" class="collapsed" aria-expanded="false"> What are the job opportunities after course completion?
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                German classes in Pune will master you as a Translator and Interpreter. Get vivid Engineering jobs in India and Germany, Journalism, Media industry, Advertising manager sectors,etc. </p>
+            </div>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+            <i class="fa-solid fa-circle-question icon-help"></i> <a data-bs-toggle="collapse"
+              data-bs-target="#faq-list-7" class="collapsed" aria-expanded="false"> How difficult is it to learn the German language?
+              <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></a>
+            <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Many people think that learning German from scratch is almost impossible. However, if you enroll at Vaakh Academy, then learning German isn't as hard as you think.</p>
+            </div>
+          </li>
+
+
+
+
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <!-- FAQ End  -->
+
+
+  <!-- Footer Start  -->
+  <section class="footer" style="  background: linear-gradient(98.68deg, #087EE1 0%, #05E8BA 110%);
+  ">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-5" id="conteAb">
+          <div class="imgLogo">
+            <img src="logo-new-02.png" width="200" alt="" srcset=""></div>
+            <p style="font-size: 13px;" class="text-white">Germany is a world leader in automation, cars, and other technological advancements. Linguistics is a way of accessing this universe. </p>
+          
+        </div>
+        <div class="col-md-3" id="col2">
+          <h4>Useful Links</h4>
+          <div class="links">
+            <a href="#" class="mb-3"
+              style="color: #ffffff ; list-style: none; display: block; text-decoration: none;"><i
+                class="fa fa-chevron-right" style="color: white;"></i>How it Works</a>
+            
+            <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                class="fa fa-chevron-right" style="color: white;"></i>About Us</a>
+            <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                class="fa fa-chevron-right" style="color: white;"></i>Careers</a>
+                <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                  class="fa fa-chevron-right" style="color: white;"></i>Blogs</a>
+                  <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                    class="fa fa-chevron-right" style="color: white;"></i>Contacts</a>
+            
+          </div>
+        </div>
+        <div class="col-md-4" id="coursCol">
+          <h4>Our Courses</h4>
+          <div class="courses d-block">
+            <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                class="fa fa-chevron-right"></i>German Language</a>
+            <a href="#" class="mb-3" style="color: #ffffff ; list-style: none; display: block;text-decoration: none;"><i
+                class="fa fa-chevron-right"></i>French Language</a>
+            <a href="#" class="mb-3" style="color: rgb(255, 255, 255) ; list-style: none; display: block;text-decoration: none;"><i
+                class="fa fa-chevron-right"></i>Spanish Language</a>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- Footer End  -->
+  <script>
+    $(document).ready(function () {
+      $("#testimonial-slider").owlCarousel({
+        items: 3,
+        itemsDesktop: [1000, 2],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [576, 1],
+        pagination: true,
+        navigation: true,
+        navigationText: ["<", ">"],
+        autoPlay: true
+      });
+    });
+  </script>
+</body>
+
+</html>
